@@ -41,3 +41,8 @@
 .title{
     text-align: center;
 }
+
+@media(max-width:768px){
+    .content{width: 85%;margin-top: 50px;}
+}
+

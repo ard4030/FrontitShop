@@ -33,3 +33,7 @@
   white-space: pre-wrap;
   line-height: 25px;
 }
+
+@media(max-width:768px){
+    .item{width: 100%!important;box-sizing: border-box;}
+}
