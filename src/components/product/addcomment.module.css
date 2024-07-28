@@ -1,0 +1,25 @@
+.addComment{
+    width: 40%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment{
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 56px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  padding: 10px;
+}

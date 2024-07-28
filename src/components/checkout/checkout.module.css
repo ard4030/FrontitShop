@@ -1,0 +1,32 @@
+.checkout{
+    width: 50%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.item label{
+    width: 101px;
+    display: inline-block;
+}
+
+.item input{
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #686767;
+    border-radius: 3px;
+}
+
+.dtItem{
+    background: #d7fdd7;
+    color: green;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.item{
+    margin-bottom: 15px;
+}

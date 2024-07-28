@@ -1,0 +1,48 @@
+.product{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.product > div{
+    width: 50%;
+    padding: 0 20px;
+}
+
+.left img{
+    width: 85%;
+}
+
+.cat{
+    background: #d1f9d1;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: green;
+}
+
+.price{
+    display: block;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 11px;
+}
+
+.btnAdd{
+    background: var(--primary-color);
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cnt{
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

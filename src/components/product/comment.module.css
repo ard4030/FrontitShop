@@ -1,0 +1,35 @@
+.comments{
+    margin-top: 50px;
+}
+
+.item{
+    background: #fff;
+    padding: 10px 19px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 14px #ccc;
+    width: 80%;
+}
+
+.item header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item header img{
+    width: 30px;
+  margin-right: 10px;
+}
+
+.item header > div{
+    display: flex;
+    align-items: center;
+}
+
+.item p{
+    color: #9b9999;
+  font-size: 14px;
+  white-space: pre-wrap;
+  line-height: 25px;
+}

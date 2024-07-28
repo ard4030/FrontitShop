@@ -1,0 +1,21 @@
+.fav{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.fav:hover{
+    transform: translateY(5%);
+}
+
+.yes{
+    background: url("/public/heart.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.no{
+    background: url("/public/unHeart.png") no-repeat center;
+    background-size: 100% 100%;
+}

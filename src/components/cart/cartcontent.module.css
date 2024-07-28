@@ -1,0 +1,48 @@
+.pic{
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+
+.tbl{
+    background: #fff;
+    padding: 10px;
+    width: 100%;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+.tbl thead tr td{
+    font-weight: 600;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.tbl thead tr td{padding: 10px 0;}
+
+.tbl thead tr td:nth-child(1){text-align: center;width: 7%;}
+.tbl thead tr td:nth-child(3){text-align: center;}
+.tbl thead tr td:nth-child(4){text-align: center;}
+.tbl thead tr td:nth-child(5){text-align: center;}
+.tbl thead tr td:nth-child(6){text-align: center;}
+
+.tbl tbody tr td:nth-child(1){text-align: center;width: 7%;}
+.tbl tbody tr td:nth-child(3){text-align: center;}
+.tbl tbody tr td:nth-child(4){text-align: center;}
+.tbl tbody tr td:nth-child(5){text-align: center;}
+.tbl tbody tr td:nth-child(6){text-align: center;}
+
+.count{
+    margin: 0 5px;
+    font-size: 16px;
+}
+
+.foot{
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

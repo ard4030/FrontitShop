@@ -1,0 +1,36 @@
+.layout{
+    min-height: 100vh;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.err{
+    background: #ffd8d8;
+  width: 50%;
+  display: block;
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+    margin-top: auto;
+  margin-top: 50px;
+  border-radius: 3px;
+  color: #fa3939;
+}
+
+.pnl{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.content{
+    width: 77%;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0px 0px 14px #79797959;
+  height: max-content;
+}

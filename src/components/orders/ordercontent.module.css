@@ -1,0 +1,50 @@
+.order{
+    display: flex;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  /* box-shadow: 0px 0px 10px #9f9f9f52; */
+  margin-bottom: 10px;
+  align-items: center;
+  border: 1px solid #eee;
+}
+
+.index{
+    width: 5%;
+    text-align: center;
+}
+
+.prName{
+    display: block;
+    font-size: 14px;
+}
+
+.price{
+    color: var(--primary-color);
+    margin: 0 15px;
+    width: 4%;
+}
+
+.success{
+    background: #edffed;
+  padding: 5px;
+  border-radius: 3px;
+  color: green;
+  margin: 0 15px;
+}
+
+.pending{
+    color: orange;
+    background: #fff4e1;
+    padding: 5px;
+    border-radius: 3px;
+  margin: 0 15px;
+}
+
+.orderId{
+    color: #ee7474;
+}
+
+.products{
+    width: 60%;
+}

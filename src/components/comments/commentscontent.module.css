@@ -1,0 +1,37 @@
+.item{
+    display: flex;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  /* box-shadow: 0px 0px 10px #9f9f9f52; */
+  margin-bottom: 10px;
+  align-items: center;
+  border: 1px solid #eee;
+}
+
+.index{
+    width: 5%;
+    text-align: center;
+}
+
+.item p{
+    font-size: 14px;
+    color: #6d6d6d;
+    width: 65%;
+    white-space: pre-wrap;
+}
+
+.btn{
+    font-size: 14px!important;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 10%;
+}
+
+.star img{
+    width: 30px;
+}

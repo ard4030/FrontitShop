@@ -1,0 +1,36 @@
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.item{
+    width: 45%;
+    margin-bottom: 15px;
+}
+
+.item label{
+    display: block;
+}
+
+.item input{
+    margin-top: 5px;
+    padding: 5px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.roles{
+    padding: 5px;
+  background: #dfd;
+  color: green;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 5px;
+  display: inline-block;
+  margin-right: 10px;
+}
